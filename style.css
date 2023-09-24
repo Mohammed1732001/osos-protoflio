@@ -31,7 +31,7 @@ section{
     padding: 0 80px ;
     margin: auto ;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .project, .contact, footer{
     font-family: 'Poppins', sans-serif ;
 }
 .about .about-content,
@@ -269,16 +269,16 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+.services, .project{
     color:#fff;
     background: #111;
 }
 .services .title::before,
-.teams .title::before{
+.project .title::before{
     background: #fff;
 }
 .services .title::after,
-.teams .title::after{
+.project .title::after{
     background: #111;
     content: "what i provide";
 }
@@ -405,9 +405,9 @@ section .title::after{
 
 
 
-/* teams section styling */
-.teams .title::after{
-    content: "who with me";
+/* project section styling */
+.project .title::after{
+    content: "Its My";
 }
 .card .project-btn .one{
 background-color: #ffc107; 
@@ -431,7 +431,7 @@ border-radius: 5px;
 border: none;
 margin-top: 10px;  
 }
-.teams .carousel .card{
+.project .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -439,25 +439,25 @@ margin-top: 10px;
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.project .carousel .card:hover{
     background: crimson;
 }
-.teams .carousel .card .box{
+.project .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.project .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.project .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+.project .carousel .card img{
     
     width: 100%;
     object-fit: cover;
@@ -465,7 +465,7 @@ margin-top: 10px;
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.project .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
